@@ -5,5 +5,5 @@ data class ViewState(
     val error: String? = null,
 )
 
-sealed class TodoContract {
+sealed class TodoEvent {
 }
